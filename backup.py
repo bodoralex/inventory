@@ -1,6 +1,7 @@
 import collections
 from collections import OrderedDict
 
+
 def display_inventory():
     print("Inventory: ")
     for i in inv:
@@ -48,4 +49,5 @@ dragon_loot = ['gold coin', 'dagger', 'gold coin', 'gold coin', 'ruby']
 #add_to_inventory(inv, dragon_loot)
 #print_table('i')
 
-print_table("count,asc")
+
+print_table()
