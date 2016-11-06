@@ -78,7 +78,7 @@ impinv = {}
 print("Hello dear!")
 
 while True:
-    answer = input("\n   Press \nD for display inventory\nL to pick up the dragon loot\nP to print the inventory, well organized\nI for import and megre an inventory\nE for export the inventory\n").upper()
+    answer = input("\n   Press \nD for display inventory\nL to pick up the dragon loot\nP to print the inventory, well organized\nI for import and megre an inventory\nE for export the inventory\nQ for quit\n").upper()
     if answer == "D":
         display_inventory()
     elif answer == "L":
@@ -101,3 +101,5 @@ while True:
             export_inventory()(filename)
         else:
             export_inventory()()
+    elif answer == "Q":
+        exit()
